@@ -1,1 +1,1 @@
-СОЗДАНО ПРИ ПОДДЕРЖКЕ AMVERA.RU AND HTTPS://T.ME/LUNARDEVV
+СОЗДАНО ПРИ ПОДДЕРЖКЕ HTTPS://AMVERA.RU AND HTTPS://T.ME/LUNARDEVV
