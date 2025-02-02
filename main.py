@@ -14,7 +14,6 @@ dp = Dispatcher()
 
 nest_asyncio.apply()
 
-# Список для хранения выбора пользователя
 user_choices = {}
 
 @dp.message(CommandStart())
@@ -28,7 +27,7 @@ async def cmd_start(message: Message):
         ]
     ])
     await message.answer(text, parse_mode="Markdown", reply_markup=kb)
-    user_choices[message.from_user.id] = None  # Добавляем пользователя в словарь
+    user_choices[message.from_user.id] = None 
 
 @dp.callback_query(lambda c: c.data in ['gemini', 'claude-3.5-sonnet', 'gpt-4o'])
 async def process_callback(callback_query: CallbackQuery):
